@@ -1,0 +1,14 @@
+# Ambiente virtual
+.venv/
+venv/
+.venv313/
+
+# Python e Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Credenciais e arquivos locais
+.env
+.env.*
+!.env.example

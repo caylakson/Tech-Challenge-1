@@ -2,6 +2,19 @@
 
 Projeto de análise da satisfação de clientes de um e-commerce, com análise exploratória dos dados e segmentação de detratores por K-Means.
 
+## Acesso ao projeto — orientações para avaliação
+
+**Repositório do projeto:** [https://github.com/caylakson/Tech-Challenge-1](https://github.com/caylakson/Tech-Challenge-1)
+
+O endereço acima é disponibilizado neste README para permitir o acesso ao repositório a partir dos arquivos anexados na entrega.
+
+1. Extraia o ZIP entregue e consulte este `readme.md` para conhecer a organização do trabalho e as instruções de execução.
+2. Acesse o link do repositório para consultar os arquivos versionados do projeto.
+3. Consulte `EDA.ipynb` para a análise exploratória e `modelo.ipynb` para a segmentação dos detratores.
+4. Para assistir à apresentação gravada, abra `Apresentacao_Video.ppsx` no Microsoft PowerPoint em modo de apresentação. **O vídeo está gravado nos próprios slides.**
+
+Os notebooks, a base de dados, as dependências e a apresentação estão incluídos no pacote de entrega.
+
 ## Objetivo
 
 Investigar quais fatores da jornada de compra estão associados à satisfação e à classificação como detrator, identificando atritos em entrega e atendimento e apoiando propostas de melhoria da experiência do cliente.
@@ -86,3 +99,4 @@ O `requirements.txt` lista as bibliotecas utilizadas nos notebooks e o `ipykerne
 As relações encontradas na EDA são descritivas e não demonstram causalidade. O arredondamento das notas e os critérios de classificação precisam ser confirmados com a origem dos dados. Os limites exploratórios de atrito não representam pontos de ruptura estatisticamente validados.
 
 Os perfis e as propostas de ação do K-Means são hipóteses para avaliação de negócio. A separação em treino e teste, isoladamente, não comprova a qualidade ou a estabilidade dos clusters.
+
